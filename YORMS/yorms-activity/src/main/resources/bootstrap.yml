@@ -4,6 +4,10 @@ spring:
   application:
     name: yorms-activiti
     host: localhost
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 192.168.60.137:9300
   cloud:
     consul:
       discovery:
