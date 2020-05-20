@@ -115,25 +115,4 @@ public class TRectificMeasure implements Serializable {
 	public String getRectificCooperatDept() {
 		return rectificCooperatDept;
 	}
-	
-	public void setRectificCooperatDept(String rectificCooperatDept) {
-		this.rectificCooperatDept = rectificCooperatDept;
-	}
-	
-	public String getRectificStatus() {
-		return rectificStatus;
-	}
-	
-	public void setRectificStatus(String rectificStatus) {
-		this.rectificStatus = rectificStatus;
-	}
-	
-	public String getRectificType() {
-		return rectificType;
-	}
-	
-	public void setRectificType(String rectificType) {
-		this.rectificType = rectificType;
-	}
-	
 }

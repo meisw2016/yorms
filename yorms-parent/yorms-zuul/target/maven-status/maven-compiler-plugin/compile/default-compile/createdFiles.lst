@@ -1,0 +1,12 @@
+cn\com\yusys\console\dto\UserLoginRequest.class
+cn\com\yusys\console\SwaggerConfig.class
+cn\com\yusys\console\util\Status.class
+cn\com\yusys\console\config\RedisConfig.class
+cn\com\yusys\console\dto\UserCheck.class
+cn\com\yusys\console\controller\LoginController.class
+cn\com\yusys\console\controller\BindExceptionHandler.class
+cn\com\yusys\console\config\MyZuulFilter.class
+cn\com\yusys\console\GatewayApplication.class
+cn\com\yusys\console\util\Status$ExpireEnum.class
+cn\com\yusys\console\service\UserService.class
+cn\com\yusys\console\util\RedisUtil.class

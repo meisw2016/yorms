@@ -1,3 +1,5 @@
+server:
+  port: 9000
 spring:
   application:
     name: yorms
@@ -8,7 +10,7 @@ spring:
         service-name: yorms
         register: true
         healthCheckPath: /actuator/health
-        instanceId: ${spring.application.name}-${server.port}-${spring.cloud.client.hostname}
+        instanceId: ${spring.application.name}-${spring.cloud.client.ip-address}-${server.port}
       host: localhost
       port: 8500
       config:
@@ -17,8 +19,6 @@ spring:
         data-key: yorms
         prefix: config
         defaultContext: consul-config
-server:
-  port: 9000
 #app:
 #  eureka:
 #    host01: localhost

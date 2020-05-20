@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>profile</title>
+</head>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+
+function test(){
+	
+	alert("ddd");
+	
+	var dataSumit="{ \"causeAnalysis\": \"13\",\"description\": \"13\",\"discoveryMode\": \"13\",\"questionName\": \"13\",\"questionNo\": \"13\",\"questionType\": 13,\"rectificId\": \"13\",\"rectificMeasureId\": 13}"
+	
+	$.ajax({
+		url : 'http://192.168.46.10:24152/risk/tQuestionBank/add',
+		type: "POST",//方法类型
+		data : dataSumit,
+		cache : false,//false是不缓存，true为缓存
+		async : false,//true为异步，false为同步
+		contentType: "application/json; charset=utf-8",
+		beforeSend : function() {
+			//请求前
+		},
+		success : function(result) {
+			//请求成功时
+			alert("success");
+		},
+		complete : function(data) {
+			//请求结束时
+		},
+		error : function(e) {
+			//请求失败时
+			alert("error");
+		}
+	});
+}
+
+</script>
+<body>
+	<button onclick="test()" >ddd</button>
+</body>
+</html>

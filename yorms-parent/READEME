@@ -1,7 +1,0 @@
-工程說明：
-yorms-parent:
-	-- yorms: 用戶管理中心
-	-- yorms-activity 流程管理
-	-- yorms-file  文件上傳下載管理
-	-- yorms-common  公共通用類
-	-- yorms-risk   風險管理

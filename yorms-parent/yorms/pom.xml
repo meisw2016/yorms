@@ -2,7 +2,6 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>cn.com.yusys</groupId>
 	<artifactId>yorms</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -25,31 +24,13 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-		<!-- consul注册中心 -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-consul-discovery</artifactId>
-			<version>2.0.2.RELEASE</version>
-		</dependency>
 
-		<!-- consul配置中心 -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-consul-config</artifactId>
-			<version>2.0.2.RELEASE</version>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-			<version>2.0.8.RELEASE</version>
 		</dependency>
 
 		<dependency>
@@ -57,11 +38,11 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
+
 		<!-- https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-springsecurity5 -->
 		<dependency>
 			<groupId>org.thymeleaf.extras</groupId>
 			<artifactId>thymeleaf-extras-springsecurity5</artifactId>
-			<version>3.0.4.RELEASE</version>
 		</dependency>
 
 
@@ -82,11 +63,24 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.47</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		
+		
 		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>2.10.0</version>
+			<groupId>cn.com.yusys</groupId>
+			<artifactId>yorms-common</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.6.1</version>
 		</dependency>
 
 	</dependencies>

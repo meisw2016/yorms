@@ -40,6 +40,20 @@ public class Constants {
 	public static final String TYPETREECODE_N_CN = "内规";
 	
 	
+
+	/**
+	 * 用户管理--默认用户组
+	 */
+	public static final Long DEFAULT_GROUP_ID = (long) 2;
+	
+	/**
+	 * 用户管理--默认用户角色
+	 */
+	public static final Long DEFAULT_AUTHORITY_ID = (long) 2;
+	
+	
+	
+
 	public static String getUUID(){
 		UUID uuid = UUID.randomUUID();
 		String result = uuid.toString().replace("-", "");

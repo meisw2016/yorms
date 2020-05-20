@@ -1,0 +1,42 @@
+server:
+  port: 24160
+spring:
+  application:
+    name: yorms-zuul
+    host: localhost
+  redis:
+    host: 192.168.46.10
+    port: 24171
+    password: 123456
+    jedis:
+      pool:
+        max-active: 100
+        max-idle: 10
+        max-wait: 100000
+    timeout: 5000
+  cloud:
+    consul:
+      discovery:
+        service-name: yorms-zuul
+        register: true
+        instanceId: ${spring.application.name}-${spring.cloud.client.ip-address}-${server.port}
+        healthCheckPath: /actuator/info
+      host: localhost
+      port: 8500
+      config:
+        enabled: true
+        format: yaml
+        data-key: yorms-zuul
+        prefix: config
+        defaultContext: consul-config
+logging:
+  level:
+    org.springframework.security: DEBUG
+zuul:
+  routes:
+    yorms-risk:
+      path: /risk/**
+      serviceId: yorms-risk
+    yorms-oca:
+      path: /oca/**
+      serviceId: yorms-oca

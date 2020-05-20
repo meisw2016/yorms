@@ -1,5 +1,10 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
 encoding//src/main/resources=UTF-8
+encoding//src/main/resources/templates/organization=UTF-8
+encoding//src/main/resources/templates/organization/organizationAdd.html=UTF-8
+encoding//src/main/resources/templates/organization/organizationEdit.html=UTF-8
+encoding//src/main/resources/templates/organization/organizationTree.html=UTF-8
+encoding//src/main/resources/templates/organization/permission.html=UTF-8
 encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8

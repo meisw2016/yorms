@@ -1,0 +1,18 @@
+1.说明：
+此工程为应用系统框架，包括如下功能
+1.用户、权限、岗位
+2.组织机构管理
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/yorms?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
+    username: root
+    password: y2s4wl7]
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+    
+   

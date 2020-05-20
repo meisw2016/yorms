@@ -1,0 +1,12 @@
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\config\RedisConfig.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\util\Status.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\dto\UserLoginRequest.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\service\UserService.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\util\RedisUtil.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\config\SecurityConfig.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\controller\LoginController.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\dto\UserCheck.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\GatewayApplication.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\controller\BindExceptionHandler.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\config\MyZuulFilter.java
+D:\Git\yorms\yorms\yorms-parent\yorms-zuul\src\main\java\cn\com\yusys\console\SwaggerConfig.java
